@@ -15,5 +15,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.fota.oem = Xiaomi \
     ro.miui.internal.storage = /sdcard/
 
+# Lawnchair
+PRODUCT_PACKAGES += \
+    Lawnchair
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc/permissions,system/etc/permissions)
