@@ -15,6 +15,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.fota.oem = Xiaomi \
     ro.miui.internal.storage = /sdcard/
 
+# Longshot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # Lawnchair
 PRODUCT_PACKAGES += \
     Lawnchair
